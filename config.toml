@@ -1,0 +1,27 @@
+# Amoeba Default Config
+
+title = "Amoeba"
+
+[base]
+folder = "chaindata"
+debug = false
+
+[blockchain]
+protocol = "http:"
+hostname = "127.0.0.1"
+port = 8545
+path = "/"
+
+[mysql]
+host = ""
+port = ""
+user = ""
+password = ""
+database = ""
+
+[mongo]
+host = "127.0.0.1"
+port = 3306
+user = "root"
+password = "password"
+database = "amoeba"
